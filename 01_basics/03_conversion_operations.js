@@ -32,3 +32,34 @@ let someNumToString = String(someNum)
 // console.log(typeof someNumToString)
 
 // +++++++++++++++++++++++++++++++Operations+++++++++++++++++++++++++++++++++++++++
+let value = 3 
+let negOfvalue = -value
+// console.log(negOfvalue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%3);
+
+
+let str1 = "hello"
+let str2 =" hitesh"
+let str3 =str1+str2
+// console.log(str3);
+
+
+// console.log("1"+2)
+// console.log(1 +"2");
+// console.log("1"+2+2);
+// console.log(1+2+"2");
+// console.log(1+2+"2"+2)
+//Note; we can see above jab hum operations ker rahe hen to is me jab beech me koi string ati he to uske k bad agay wale sare numbers wo as a string treat kerta he.
+
+
+
+console.log(+true)  //output will be 1 but this is not ethical to use ...
+console.log(+"");   //output will be 0 but this is not ethical to use ...
+
+
