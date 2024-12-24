@@ -28,8 +28,31 @@ let myobj={
 }
 
 const myFunction =function(){
-    console.log("hello world");
+    // console.log("hello world");
     
 }
 
 //note . all types k non-primitive ka datatype funtions hi ata he
+// console.log(typeof myobj );
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (Primitive) ,heap (non-Primitive)
+
+
+let myyoutubename ="hiteshchoudhrydotcom"
+let anothername = myyoutubename
+anothername ="chaiaurcode"
+// console.log(myyoutubename);
+// console.log(anothername);
+
+let userOne ={
+    email:"user@google.com",
+    upi :"user@ybl"
+}
+let userTwo =userOne
+userOne.email="kumardhanesh950@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
