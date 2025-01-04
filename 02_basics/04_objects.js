@@ -25,7 +25,7 @@ const obj2 ={3: "a", 4: "b"}
 // const obj3 =Object.assign({}, obj1, obj2)   // empty object is me target hota he or variable is me source
 //OR we use mostly sprread operator
 const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+// console.log(obj3);
 
 
 const users =[
@@ -45,14 +45,34 @@ const users =[
 // console.log(users[1].email);
 // console.log(users[2].id); 
 
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('name'))
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('name'))
+
+// De-structuring of the Objects
+
+const course ={
+    coursename :"Js in hindi",
+    price : 999,
+    courseInstructor :"hitesh"
+}
+
+const {courseInstructor: instructor} = course
+// console.log(instructor)
 
 
 
+// {
+//     "name ": "hitesh",
+//     "courseName":"js in hindi",
+//     "price" : "free"
+// }
 
+[   {},
+    {},
+    {}
+]
 
 
 
