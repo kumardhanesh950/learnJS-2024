@@ -52,4 +52,39 @@ const result =addtwoNumber(3,5)
     return `${username} just loggedIn`
 
   }
-  console.log(loginusername())
+  // console.log(loginusername())
+
+// suppose agr ek shopping cart me customer multiple items add ker raha then we can console by spread opertor which is here called in function as a rest operator.
+  function CalculateCartPrice(...num1) {   
+    return num1
+  }
+  // console.log(CalculateCartPrice(200, 300, 400)); // [200,300,400]
+
+// object ko function me kese pass karenge
+
+const user ={
+username : "Dhanesh kumar",
+price: 999  
+}
+
+function handleobject(anyobject) {
+  console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+  
+}
+// handleobject(user)   // hum yaha bi object pass ker sakte hen like below
+handleobject({
+  username: "hitesh",
+  price: 1199
+})  // output => usernmae is hitesh and price is 1199
+   
+
+//Now Function me array kese pass karenge 
+const myNewArray =[200,400,600,800]
+
+function returnSecondVal(getArray) {
+  return getArray[1]
+  
+}
+console.log(returnSecondVal(myNewArray))  
+//or
+console.log(returnSecondVal([200,400,600,800]))
