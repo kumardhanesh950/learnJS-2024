@@ -13,13 +13,39 @@ for (const greet of greeting) {
 }
 
 // Maps
-const map = new Map()
-map.set('IND', "India")
-map.set('USA', "United Nations of America")
-map.set('Fr', "France")
+// const map = new Map()
+// map.set('IND', "India")
+// map.set('USA', "United Nations of America")
+// map.set('Fr', "France")
 // console.log(map)
 
- for (const [ key ,value] of map) {
-    console.log(key, ":-", value);
+//  for (const [ key ,value] of map) {
+//     console.log(key, ":-", value);
     
- }
+//  }
+
+
+
+
+
+
+
+
+
+
+const map= new Map()
+map.set ('IND',"India")
+map.set ('USA', "United State of America")
+map.set ('Fr', "France")
+// console.log(map);
+
+for (const [key, value] of map) {
+    console.log(key, ":-", value)
+}
+
+// we get 
+// IND :- India
+// USA :- United States of America
+// Fr :- France
+
+
